@@ -1,0 +1,164 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	color: #D9DADE;
+}
+
+h1 {
+	margin: 0 auto;
+	padding: 10px 5px;
+
+}
+
+h3 {
+	font-weight: lighter;
+	margin: 0 auto;
+	width: 90%;
+	padding: 20px 5px;
+	max-width: 800px;
+}
+
+header {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color: #101420;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-weight: lighter;
+	letter-spacing: 1.7px;
+}
+
+header h3 {
+	color: #00FFFF;
+}
+
+header ul {
+	list-style:none;
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 0 !important;
+
+	
+}
+div#headerList {
+	margin: 0 auto;
+	padding-top: 20px;
+	max-width: 400px;
+}
+
+header ul li {
+	padding-bottom: 10px;
+}
+header ul.left{
+	text-align: left;
+	padding-right: 100px;
+	display: inline-block;
+}
+
+header ul.right {
+	text-align: right;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+div.MoreButton h3{
+	margin-top: 75px;
+	max-width: 150px;
+	color: #FFB500;
+	border-style: solid;
+	border-radius: 2em;
+
+}
+
+section.Section1 {
+	background-color: #FFF;
+	padding-top: 100px;	
+	background: url(../img/photo_1.jpg);	
+	background-size: cover;
+	background-position: static;
+	background-repeat: no-repeat;
+	display: block;
+	min-height: 500px;
+	min-width: 100%;
+}
+
+h1#section1 {
+	margin-left: 90px;
+	text-align: center;
+	font-size: 3.5em;
+	color: #FFF;
+	max-width: 250px;
+	border-style: solid;
+	border-radius: .3px;
+	box-shadow: 10px 10px 5px #585454;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+	/*Media screens width 768px < */
+	header {
+		padding-top: 100px;
+		min-height: 1024px;
+	}
+	header h1 {
+		font-size: 6.8em;
+	}
+
+	header h3 {
+		font-size: 3.5em;
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
+
+
+	div.MoreButton h3 {
+		max-width: 400px;
+		max-height: 20px;
+		padding-top:35px;
+	}
+
+	div#headerList {
+
+		font-size: 3.5em;
+		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 375px){
+	/*Media screens width 375px < */
+	header{
+		min-height: 627px;
+		padding-top: 20px;
+	}
+	header h1 {	
+		font-size: 3.8em;
+	}
+
+	header h3 {
+		font-size: 1.7em;
+	}
+
+	div#headerList {
+		padding-top: 40px;
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 320px){
+/*Media screens width 320px < */
+header {
+	min-width: 320px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	}
+header h1 {
+		font-size: 3.4em;
+	}
+}
+
+
+
+
